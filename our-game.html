@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ELDER3 STUDIO</title>
+    <!-- Favicon icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/logo.svg">
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/aos.css">
+    <link rel="stylesheet" href="assets/css/vendors/odometer.css">
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css">
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/carouselTicker.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <!-- prettier-ignore -->
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="loader-icon"><img src="assets/imgs/template/logo.svg" alt="Preloader"></div>
+            </div>
+        </div>
+    </div>
+    <!--Preloader-end -->
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light w-100 bg-black-2 p-0 z-3">
+            <div class="d-flex justify-content-between align-items-center w-100 ps-5">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/imgs/template/logo.svg" alt="logo">
+                    <span class="ms-2 ds-xs-6 fw-bold text-white">
+                        ELDER3
+                    </span>
+                </a>
+                <div class="align-items-lg-center me-auto ms-10 d-none d-lg-flex">
+                    <ul class="navbar-nav align-items-lg-center mx-auto border-0">
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="about-us.html"> About </a>
+                        </li>
+                        
+                        <li class="nav-item dropdown menu-item-has-children">
+                            <a class="nav-link fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Our Games </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="our-game.html">Our Game</a></li>
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+
+                </div>
+                <div class="d-flex align-items-center position-relative">
+                    <ul class="navbar-nav border-0 pe-0">
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        <!-- offCanvas-menu -->
+        
+        <div class="offCanvas__overly"></div>
+        <!-- Offcanvas search -->
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop">
+            <div class="offcanvas-header">
+                <button class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 mx-auto">
+                            <h3 class="mb-4">What are you looking for?</h3>
+                            <div class="input-group mb-3" data-aos="zoom-in">
+                                <input type="text" class="form-control" placeholder="Enter Your Keywords" aria-label="Enter Your Keywords" aria-describedby="button-addon2">
+                                <button class="btn btn-primary" id="button-addon2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Offcanvas search -->
+    </header>
+    <main>
+        <!-- prettier-ignore -->
+        <!-- page header -->
+        <section class="page-header position-relative overflow-hidden">
+            <div class="container pt-160 pb-160 position-relative z-1">
+                <h1 class="mb-3 text-uppercase">Our Games</h1>
+                <div class="d-flex align-items-center flex-wrap">
+                    <a href="index.html" class="text-secondary">Home</a>
+                    <div class="align-items-center d-none">
+                        <span class="mx-2 line-soft bg-secondary"></span>
+                        <a href="services-1.html" class="text-secondary">Our Services</a>
+                    </div>
+                    <span class="mx-2 line-soft bg-primary"></span>
+                    <a href="#" class="text-primary">Our Games</a>
+                </div>
+            </div>
+            <div class="image-background opacity-20 w-100 h-100 position-absolute top-50 start-50 translate-middle z-0" data-background="assets/imgs/page-header/img-bg-3.png"></div>
+        </section>
+        <!-- works 2 -->
+        <section class="section-works-1 pt-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h3 class="text-secondary">
+                            Explore <span class="text-white">our portfolio</span> to view a variety of <span class="text-white">game projects</span> that showcase <span class="text-white">our expertise across multiple disciplines</span>
+                        </h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-start mt-8">
+                            <div class="button-group filter-button-group filter-menu-active">
+                                <button class="btn filter-btn mb-2 me-2 text-uppercase active" data-filter="*">All Games</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row masonary-active mt-8">
+                    <div class="grid-sizer"></div>
+                    <!-- prettier-ignore -->
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="filter-item col-lg-4 col-md-6 col-sm-12 MMO">
+                        <div class="card-work border-bottom border-primary border-4 mb-4">
+                            <div class="position-relative">
+                                <img class="w-100" src="assets/imgs/works/works-2/img-8.png" alt="muzilla" />
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-4">
+                                    <a href="#" class="tag-work text-uppercase bg-primary text-dark fw-bold fs-8">Hack And Slach</a>
+                                </div>
+                            </div>
+                            <div class="card-work-content">
+                                <h5 class="text-nowrap">Egyptian Knight</h5>
+                                <div class="d-flex gap-3">
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">PC</a>
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">Itch io</a>
+                                    
+                                </div>
+                                <div class="card-review d-flex justify-content-between my-4 px-4 py-3 gap-4">
+                                    <div class="star">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-primary me-2"></i>
+                                            <h6 class="mb-0">3.9</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">1.2K Reviews</p>
+                                    </div>
+                                    <div class="download">
+                                        <div class="d-flex">
+                                            <svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                                <path d="M13.7644 9.88987C13.6075 9.73286 13.4167 9.6543 13.1924 9.6543H9.28843L8.14422 10.7985C7.81888 11.1125 7.43749 11.2696 7 11.2696C6.56259 11.2696 6.18109 11.1127 5.85578 10.7985L4.71997 9.6543H0.807682C0.583365 9.6543 0.392672 9.73295 0.235574 9.88987C0.078505 10.0469 0 10.2376 0 10.4621V13.1543C0 13.3787 0.078505 13.5694 0.235574 13.7264C0.392643 13.8834 0.583336 13.9619 0.807682 13.9619H13.1924C13.4167 13.9619 13.6075 13.8834 13.7644 13.7264C13.9216 13.5694 14 13.3787 14 13.1543V10.4621C14 10.2376 13.9216 10.0469 13.7644 9.88987ZM10.6095 12.7252C10.5028 12.8318 10.3766 12.885 10.2307 12.885C10.0849 12.885 9.95882 12.8318 9.85214 12.7252C9.74564 12.6186 9.69239 12.4924 9.69239 12.3467C9.69239 12.2009 9.74564 12.0745 9.85214 11.9681C9.95882 11.8614 10.0849 11.8081 10.2307 11.8081C10.3766 11.8081 10.5028 11.8614 10.6095 11.9681C10.716 12.0745 10.7693 12.2009 10.7693 12.3467C10.7693 12.4924 10.716 12.6186 10.6095 12.7252ZM12.7632 12.7252C12.6567 12.8318 12.5305 12.885 12.3846 12.885C12.2388 12.885 12.1126 12.8318 12.006 12.7252C11.8995 12.6186 11.8463 12.4924 11.8463 12.3467C11.8463 12.2009 11.8995 12.0745 12.006 11.9681C12.1126 11.8614 12.2388 11.8081 12.3846 11.8081C12.5304 11.8081 12.6567 11.8614 12.7632 11.9681C12.8698 12.0745 12.9232 12.2009 12.9232 12.3467C12.9232 12.4924 12.8699 12.6186 12.7632 12.7252Z" fill="#E3FF04" />
+                                                <path d="M6.62137 10.0328C6.72239 10.1392 6.84857 10.1925 6.99996 10.1925C7.15146 10.1925 7.27749 10.1392 7.37854 10.0328L11.1478 6.26344C11.3217 6.1008 11.361 5.90445 11.2656 5.67448C11.1704 5.45579 11.0049 5.34643 10.7692 5.34631H8.61532V1.57706C8.61532 1.43125 8.56195 1.30503 8.45557 1.19847C8.34889 1.09188 8.22274 1.03857 8.07698 1.03857H5.92293C5.77718 1.03857 5.65096 1.09188 5.54434 1.19847C5.43781 1.30503 5.3845 1.43122 5.3845 1.57706V5.34634H3.23065C2.99496 5.34634 2.82958 5.45582 2.73422 5.6745C2.63892 5.90439 2.67814 6.10083 2.85207 6.26347L6.62137 10.0328Z" fill="#E3FF04" />
+                                            </svg>
+                                            <h6 class="mb-0">5.7 K</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">Downloads</p>
+                                    </div>
+                                </div>
+                                <a href="https://elder3-studio-2.itch.io/egyptian-knight-alpha-test" target="_blank" class="learn-more d-flex align-items-center justify-content-between">
+                                    <span class="fs-8 text-secondary">release: 2025</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                        <path d="M18.6714 10.9832L8.63038 21.0243L6.98047 19.3744L17.0215 9.33333H8.17142V7H21.0047V19.8333H18.6714V10.9832Z" fill="#E3FF04" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-item col-lg-4 col-md-6 col-sm-12 MMO">
+                        <div class="card-work border-bottom border-primary border-4 mb-4">
+                            <div class="position-relative">
+                                <img class="w-100" src="assets/imgs/works/works-2/img-9.png" alt="muzilla" />
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-4">
+                                    <a href="#" class="tag-work text-uppercase bg-primary text-dark fw-bold fs-8">Shooter</a>
+                                </div>
+                            </div>
+                            <div class="card-work-content">
+                                <h5 class="text-nowrap">Battle Begins</h5>
+                                <div class="d-flex gap-3">
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">PC</a>
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">Itch io</a>
+                                    
+                                </div>
+                                <div class="card-review d-flex justify-content-between my-4 px-4 py-3 gap-4">
+                                    <div class="star">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-primary me-2"></i>
+                                            <h6 class="mb-0">4.1</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">2.3 K Reviews</p>
+                                    </div>
+                                    <div class="download">
+                                        <div class="d-flex">
+                                            <svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                                <path d="M13.7644 9.88987C13.6075 9.73286 13.4167 9.6543 13.1924 9.6543H9.28843L8.14422 10.7985C7.81888 11.1125 7.43749 11.2696 7 11.2696C6.56259 11.2696 6.18109 11.1127 5.85578 10.7985L4.71997 9.6543H0.807682C0.583365 9.6543 0.392672 9.73295 0.235574 9.88987C0.078505 10.0469 0 10.2376 0 10.4621V13.1543C0 13.3787 0.078505 13.5694 0.235574 13.7264C0.392643 13.8834 0.583336 13.9619 0.807682 13.9619H13.1924C13.4167 13.9619 13.6075 13.8834 13.7644 13.7264C13.9216 13.5694 14 13.3787 14 13.1543V10.4621C14 10.2376 13.9216 10.0469 13.7644 9.88987ZM10.6095 12.7252C10.5028 12.8318 10.3766 12.885 10.2307 12.885C10.0849 12.885 9.95882 12.8318 9.85214 12.7252C9.74564 12.6186 9.69239 12.4924 9.69239 12.3467C9.69239 12.2009 9.74564 12.0745 9.85214 11.9681C9.95882 11.8614 10.0849 11.8081 10.2307 11.8081C10.3766 11.8081 10.5028 11.8614 10.6095 11.9681C10.716 12.0745 10.7693 12.2009 10.7693 12.3467C10.7693 12.4924 10.716 12.6186 10.6095 12.7252ZM12.7632 12.7252C12.6567 12.8318 12.5305 12.885 12.3846 12.885C12.2388 12.885 12.1126 12.8318 12.006 12.7252C11.8995 12.6186 11.8463 12.4924 11.8463 12.3467C11.8463 12.2009 11.8995 12.0745 12.006 11.9681C12.1126 11.8614 12.2388 11.8081 12.3846 11.8081C12.5304 11.8081 12.6567 11.8614 12.7632 11.9681C12.8698 12.0745 12.9232 12.2009 12.9232 12.3467C12.9232 12.4924 12.8699 12.6186 12.7632 12.7252Z" fill="#E3FF04" />
+                                                <path d="M6.62137 10.0328C6.72239 10.1392 6.84857 10.1925 6.99996 10.1925C7.15146 10.1925 7.27749 10.1392 7.37854 10.0328L11.1478 6.26344C11.3217 6.1008 11.361 5.90445 11.2656 5.67448C11.1704 5.45579 11.0049 5.34643 10.7692 5.34631H8.61532V1.57706C8.61532 1.43125 8.56195 1.30503 8.45557 1.19847C8.34889 1.09188 8.22274 1.03857 8.07698 1.03857H5.92293C5.77718 1.03857 5.65096 1.09188 5.54434 1.19847C5.43781 1.30503 5.3845 1.43122 5.3845 1.57706V5.34634H3.23065C2.99496 5.34634 2.82958 5.45582 2.73422 5.6745C2.63892 5.90439 2.67814 6.10083 2.85207 6.26347L6.62137 10.0328Z" fill="#E3FF04" />
+                                            </svg>
+                                            <h6 class="mb-0">6.3 K</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">Downloads</p>
+                                    </div>
+                                </div>
+                                <a href="https://elder3-studio-2.itch.io/demo-shooter-battle-begins" target="_blank" class="learn-more d-flex align-items-center justify-content-between">
+                                    <span class="fs-8 text-secondary">release: 2025</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                        <path d="M18.6714 10.9832L8.63038 21.0243L6.98047 19.3744L17.0215 9.33333H8.17142V7H21.0047V19.8333H18.6714V10.9832Z" fill="#E3FF04" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-item col-lg-4 col-md-6 col-sm-12 Action">
+                        <div class="card-work border-bottom border-primary border-4 mb-4">
+                            <div class="position-relative">
+                                <img class="w-100" src="assets/imgs/works/works-2/img-10.png" alt="muzilla" />
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-4">
+                                    <a href="#" class="tag-work text-uppercase bg-primary text-dark fw-bold fs-8">Survival</a>
+                                </div>
+                            </div>
+                            <div class="card-work-content">
+                                <h5 class="text-nowrap">Elder3 Survival v1</h5>
+                                <div class="d-flex gap-3">
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">PC</a>
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">Itch io</a>
+                                    <a href="#" class="text-secondary fs-7">GameJolt</a>
+                                </div>
+                                <div class="card-review d-flex justify-content-between my-4 px-4 py-3 gap-4">
+                                    <div class="star">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-primary me-2"></i>
+                                            <h6 class="mb-0">3.2</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">1.3 K Reviews</p>
+                                    </div>
+                                    <div class="download">
+                                        <div class="d-flex">
+                                            <svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                                <path d="M13.7644 9.88987C13.6075 9.73286 13.4167 9.6543 13.1924 9.6543H9.28843L8.14422 10.7985C7.81888 11.1125 7.43749 11.2696 7 11.2696C6.56259 11.2696 6.18109 11.1127 5.85578 10.7985L4.71997 9.6543H0.807682C0.583365 9.6543 0.392672 9.73295 0.235574 9.88987C0.078505 10.0469 0 10.2376 0 10.4621V13.1543C0 13.3787 0.078505 13.5694 0.235574 13.7264C0.392643 13.8834 0.583336 13.9619 0.807682 13.9619H13.1924C13.4167 13.9619 13.6075 13.8834 13.7644 13.7264C13.9216 13.5694 14 13.3787 14 13.1543V10.4621C14 10.2376 13.9216 10.0469 13.7644 9.88987ZM10.6095 12.7252C10.5028 12.8318 10.3766 12.885 10.2307 12.885C10.0849 12.885 9.95882 12.8318 9.85214 12.7252C9.74564 12.6186 9.69239 12.4924 9.69239 12.3467C9.69239 12.2009 9.74564 12.0745 9.85214 11.9681C9.95882 11.8614 10.0849 11.8081 10.2307 11.8081C10.3766 11.8081 10.5028 11.8614 10.6095 11.9681C10.716 12.0745 10.7693 12.2009 10.7693 12.3467C10.7693 12.4924 10.716 12.6186 10.6095 12.7252ZM12.7632 12.7252C12.6567 12.8318 12.5305 12.885 12.3846 12.885C12.2388 12.885 12.1126 12.8318 12.006 12.7252C11.8995 12.6186 11.8463 12.4924 11.8463 12.3467C11.8463 12.2009 11.8995 12.0745 12.006 11.9681C12.1126 11.8614 12.2388 11.8081 12.3846 11.8081C12.5304 11.8081 12.6567 11.8614 12.7632 11.9681C12.8698 12.0745 12.9232 12.2009 12.9232 12.3467C12.9232 12.4924 12.8699 12.6186 12.7632 12.7252Z" fill="#E3FF04" />
+                                                <path d="M6.62137 10.0328C6.72239 10.1392 6.84857 10.1925 6.99996 10.1925C7.15146 10.1925 7.27749 10.1392 7.37854 10.0328L11.1478 6.26344C11.3217 6.1008 11.361 5.90445 11.2656 5.67448C11.1704 5.45579 11.0049 5.34643 10.7692 5.34631H8.61532V1.57706C8.61532 1.43125 8.56195 1.30503 8.45557 1.19847C8.34889 1.09188 8.22274 1.03857 8.07698 1.03857H5.92293C5.77718 1.03857 5.65096 1.09188 5.54434 1.19847C5.43781 1.30503 5.3845 1.43122 5.3845 1.57706V5.34634H3.23065C2.99496 5.34634 2.82958 5.45582 2.73422 5.6745C2.63892 5.90439 2.67814 6.10083 2.85207 6.26347L6.62137 10.0328Z" fill="#E3FF04" />
+                                            </svg>
+                                            <h6 class="mb-0">4.1 K</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">Downloads</p>
+                                    </div>
+                                </div>
+                                <a href="https://elder3-studio-2.itch.io/elder3-survival" target="_blank" class="learn-more d-flex align-items-center justify-content-between">
+                                    <span class="fs-8 text-secondary">release: 2025</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                        <path d="M18.6714 10.9832L8.63038 21.0243L6.98047 19.3744L17.0215 9.33333H8.17142V7H21.0047V19.8333H18.6714V10.9832Z" fill="#E3FF04" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-item col-lg-4 col-md-6 col-sm-12 Casual">
+                        <div class="card-work border-bottom border-primary border-4 mb-4">
+                            <div class="position-relative">
+                                <img class="w-100" src="assets/imgs/works/works-2/img-11.png" alt="muzilla" />
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-4">
+                                    <a href="#" class="tag-work text-uppercase bg-primary text-dark fw-bold fs-8">Fight</a>
+                                </div>
+                            </div>
+                            <div class="card-work-content">
+                                <h5 class="text-nowrap">Robot War</h5>
+                                <div class="d-flex gap-3">
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">Itch io</a>
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">PC</a>
+                                    <a href="#" class="text-secondary fs-7">GameJolt</a>
+                                </div>
+                                <div class="card-review d-flex justify-content-between my-4 px-4 py-3 gap-4">
+                                    <div class="star">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-primary me-2"></i>
+                                            <h6 class="mb-0">2.9</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">600 Reviews</p>
+                                    </div>
+                                    <div class="download">
+                                        <div class="d-flex">
+                                            <svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                                <path d="M13.7644 9.88987C13.6075 9.73286 13.4167 9.6543 13.1924 9.6543H9.28843L8.14422 10.7985C7.81888 11.1125 7.43749 11.2696 7 11.2696C6.56259 11.2696 6.18109 11.1127 5.85578 10.7985L4.71997 9.6543H0.807682C0.583365 9.6543 0.392672 9.73295 0.235574 9.88987C0.078505 10.0469 0 10.2376 0 10.4621V13.1543C0 13.3787 0.078505 13.5694 0.235574 13.7264C0.392643 13.8834 0.583336 13.9619 0.807682 13.9619H13.1924C13.4167 13.9619 13.6075 13.8834 13.7644 13.7264C13.9216 13.5694 14 13.3787 14 13.1543V10.4621C14 10.2376 13.9216 10.0469 13.7644 9.88987ZM10.6095 12.7252C10.5028 12.8318 10.3766 12.885 10.2307 12.885C10.0849 12.885 9.95882 12.8318 9.85214 12.7252C9.74564 12.6186 9.69239 12.4924 9.69239 12.3467C9.69239 12.2009 9.74564 12.0745 9.85214 11.9681C9.95882 11.8614 10.0849 11.8081 10.2307 11.8081C10.3766 11.8081 10.5028 11.8614 10.6095 11.9681C10.716 12.0745 10.7693 12.2009 10.7693 12.3467C10.7693 12.4924 10.716 12.6186 10.6095 12.7252ZM12.7632 12.7252C12.6567 12.8318 12.5305 12.885 12.3846 12.885C12.2388 12.885 12.1126 12.8318 12.006 12.7252C11.8995 12.6186 11.8463 12.4924 11.8463 12.3467C11.8463 12.2009 11.8995 12.0745 12.006 11.9681C12.1126 11.8614 12.2388 11.8081 12.3846 11.8081C12.5304 11.8081 12.6567 11.8614 12.7632 11.9681C12.8698 12.0745 12.9232 12.2009 12.9232 12.3467C12.9232 12.4924 12.8699 12.6186 12.7632 12.7252Z" fill="#E3FF04" />
+                                                <path d="M6.62137 10.0328C6.72239 10.1392 6.84857 10.1925 6.99996 10.1925C7.15146 10.1925 7.27749 10.1392 7.37854 10.0328L11.1478 6.26344C11.3217 6.1008 11.361 5.90445 11.2656 5.67448C11.1704 5.45579 11.0049 5.34643 10.7692 5.34631H8.61532V1.57706C8.61532 1.43125 8.56195 1.30503 8.45557 1.19847C8.34889 1.09188 8.22274 1.03857 8.07698 1.03857H5.92293C5.77718 1.03857 5.65096 1.09188 5.54434 1.19847C5.43781 1.30503 5.3845 1.43122 5.3845 1.57706V5.34634H3.23065C2.99496 5.34634 2.82958 5.45582 2.73422 5.6745C2.63892 5.90439 2.67814 6.10083 2.85207 6.26347L6.62137 10.0328Z" fill="#E3FF04" />
+                                            </svg>
+                                            <h6 class="mb-0">2.4 K</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">Downloads</p>
+                                    </div>
+                                </div>
+                                <a href="https://elder3-studio-2.itch.io/demo-robot-war" class="learn-more d-flex align-items-center justify-content-between">
+                                    <span class="fs-8 text-secondary">release: 2025</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                        <path d="M18.6714 10.9832L8.63038 21.0243L6.98047 19.3744L17.0215 9.33333H8.17142V7H21.0047V19.8333H18.6714V10.9832Z" fill="#E3FF04" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-item col-lg-4 col-md-6 col-sm-12 MMO">
+                        <div class="card-work border-bottom border-primary border-4 mb-4">
+                            <div class="position-relative">
+                                <img class="w-100" src="assets/imgs/works/works-2/img-12.png" alt="muzilla" />
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-4">
+                                    <a href="#" class="tag-work text-uppercase bg-primary text-dark fw-bold fs-8">Party Game</a>
+                                </div>
+                            </div>
+                            <div class="card-work-content">
+                                <h5 class="text-nowrap">Bomber Guys</h5>
+                                <div class="d-flex gap-3">
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">Itch io</a>
+                                    <a href="#" class="text-secondary border-end border-secondary pe-2 fs-7">PC</a>
+                                    
+                                </div>
+                                <div class="card-review d-flex justify-content-between my-4 px-4 py-3 gap-4">
+                                    <div class="star">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-primary me-2"></i>
+                                            <h6 class="mb-0">4.0</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">2.1 K Reviews</p>
+                                    </div>
+                                    <div class="download">
+                                        <div class="d-flex">
+                                            <svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                                <path d="M13.7644 9.88987C13.6075 9.73286 13.4167 9.6543 13.1924 9.6543H9.28843L8.14422 10.7985C7.81888 11.1125 7.43749 11.2696 7 11.2696C6.56259 11.2696 6.18109 11.1127 5.85578 10.7985L4.71997 9.6543H0.807682C0.583365 9.6543 0.392672 9.73295 0.235574 9.88987C0.078505 10.0469 0 10.2376 0 10.4621V13.1543C0 13.3787 0.078505 13.5694 0.235574 13.7264C0.392643 13.8834 0.583336 13.9619 0.807682 13.9619H13.1924C13.4167 13.9619 13.6075 13.8834 13.7644 13.7264C13.9216 13.5694 14 13.3787 14 13.1543V10.4621C14 10.2376 13.9216 10.0469 13.7644 9.88987ZM10.6095 12.7252C10.5028 12.8318 10.3766 12.885 10.2307 12.885C10.0849 12.885 9.95882 12.8318 9.85214 12.7252C9.74564 12.6186 9.69239 12.4924 9.69239 12.3467C9.69239 12.2009 9.74564 12.0745 9.85214 11.9681C9.95882 11.8614 10.0849 11.8081 10.2307 11.8081C10.3766 11.8081 10.5028 11.8614 10.6095 11.9681C10.716 12.0745 10.7693 12.2009 10.7693 12.3467C10.7693 12.4924 10.716 12.6186 10.6095 12.7252ZM12.7632 12.7252C12.6567 12.8318 12.5305 12.885 12.3846 12.885C12.2388 12.885 12.1126 12.8318 12.006 12.7252C11.8995 12.6186 11.8463 12.4924 11.8463 12.3467C11.8463 12.2009 11.8995 12.0745 12.006 11.9681C12.1126 11.8614 12.2388 11.8081 12.3846 11.8081C12.5304 11.8081 12.6567 11.8614 12.7632 11.9681C12.8698 12.0745 12.9232 12.2009 12.9232 12.3467C12.9232 12.4924 12.8699 12.6186 12.7632 12.7252Z" fill="#E3FF04" />
+                                                <path d="M6.62137 10.0328C6.72239 10.1392 6.84857 10.1925 6.99996 10.1925C7.15146 10.1925 7.27749 10.1392 7.37854 10.0328L11.1478 6.26344C11.3217 6.1008 11.361 5.90445 11.2656 5.67448C11.1704 5.45579 11.0049 5.34643 10.7692 5.34631H8.61532V1.57706C8.61532 1.43125 8.56195 1.30503 8.45557 1.19847C8.34889 1.09188 8.22274 1.03857 8.07698 1.03857H5.92293C5.77718 1.03857 5.65096 1.09188 5.54434 1.19847C5.43781 1.30503 5.3845 1.43122 5.3845 1.57706V5.34634H3.23065C2.99496 5.34634 2.82958 5.45582 2.73422 5.6745C2.63892 5.90439 2.67814 6.10083 2.85207 6.26347L6.62137 10.0328Z" fill="#E3FF04" />
+                                            </svg>
+                                            <h6 class="mb-0">5.4 K</h6>
+                                        </div>
+                                        <p class="fs-8 mb-0">Downloads</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="learn-more d-flex align-items-center justify-content-between">
+                                    <span class="fs-8 text-secondary">release: 2025</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                        <path d="M18.6714 10.9832L8.63038 21.0243L6.98047 19.3744L17.0215 9.33333H8.17142V7H21.0047V19.8333H18.6714V10.9832Z" fill="#E3FF04" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQs-1 -->
+        <section class="section-faqs-2 position-relative section-padding">
+            <div class="image-bg position-absolute top-0 start-0 w-100 h-100 z-0" data-background="assets/imgs/faqs/faqs-2/img-bg.png"></div>
+            <div class="position-absolute bottom-0 start-0  d-none d-lg-block">
+                <img src="assets/imgs/faqs/faqs-2/figure-1.png" alt="image" />
+                <div class="ellipses position-absolute">
+                    <div class="ellipse flickering"></div>
+                </div>
+            </div>
+            <div class="position-absolute bottom-0 end-0 d-none d-lg-block">
+                <img src="assets/imgs/faqs/faqs-2/figure-2.png" alt="image" />
+            </div>
+            <div class="container position-relative z-1">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="mb-8">
+                            <span class="fw-semibold text-primary fs-7 tg-heading-subheading animation-style3"><span class="opacity-25 me-2">+</span> FAQ. <span class="opacity-25 ms-2">+</span></span>
+                            <h2 class=" tg-element-title">Most Q <span class="stroke text-transparent">answer</span></h2>
+                        </div>
+                        <div class="accordion">
+                            <div class="px-0 card rounded-3 mb-3 collapse-custom">
+                                <div class="p-0 card-header border-0 rounded-3">
+                                    <a class="text-900 collapsed p-3 text-white fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse1">
+                                        <span class="m-0 fs-6 fw-bold">When will the game be released?</span>
+                                        <span class="ms-auto arrow icon-shape icon-sm rounded-circle"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse1" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6">We’re working hard to launch the game as soon as possible, but our priority is quality over deadlines. We’ll announce an official release date once we’re confident the game is polished and bug-free. Follow us on [social media] for updates!.</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card rounded-3 mb-3 collapse-custom">
+                                <div class="p-0 card-header border-0 rounded-3">
+                                    <a class="text-900 p-3 text-white fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse2">
+                                        <span class="m-0 fs-6 fw-bold">Will the game be available on [specific platform]? (PC/PlayStation/Xbox/Switch)</span>
+                                        <span class="ms-auto arrow icon-shape icon-sm rounded-circle"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse2" class="collapse show" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6">Right now, we’re focusing on launching the game on [primary platform, e.g., PC] first. If it does well, we’d love to bring it to other platforms—your support can make that happen!</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card rounded-3 mb-3 collapse-custom">
+                                <div class="p-0 card-header border-0 rounded-3">
+                                    <a class="collapsed text-900 p-3 text-white fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse3">
+                                        <span class="m-0 fs-6 fw-bold">Are you planning post-launch content (DLC or free updates)?</span>
+                                        <span class="ms-auto arrow icon-shape icon-sm rounded-circle"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse3" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6">We plan to support the game after launch with [free updates / paid expansions], depending on community feedback. We’re committed to improving and expanding the game based on player input!</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card rounded-3 mb-3 collapse-custom">
+                                <div class="p-0 card-header border-0 rounded-3">
+                                    <a class="collapsed text-900 p-3 text-white fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse4">
+                                        <span class="m-0 fs-6 fw-bold">What makes your game different from others in the genre?</span>
+                                        <span class="ms-auto arrow icon-shape icon-sm rounded-circle"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse4" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6">Our game stands out thanks to [key feature, e.g., hand-painted art / a branching narrative / physics-based gameplay]. Unlike similar titles, we’ve added [unique twist, e.g., a dynamic weather system / AI-driven NPCs]. We’re aiming for a fresh, memorable experience!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact-1 -->
+        
+
+        <!-- Insta 1 -->
+        <div class="section-insta-1 position-relative">
+            <div class="position-relative z-0">
+                <!-- Swiper -->
+                <div class="swiper slider-5">
+                    <div class="swiper-wrapper z-1">
+                        <!-- <div class="swiper-slide">
+                    <img src="assets/imgs/insta/insta-1/img-1.png" alt="muzilla">
+                </div> -->
+                        <div class="swiper-slide">
+                            <img src="assets/imgs/insta/insta-1/img-2.png" alt="muzilla" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imgs/insta/insta-1/img-3.png" alt="muzilla" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imgs/insta/insta-1/img-4.png" alt="muzilla" />
+                        </div>
+                        <!-- <div class="swiper-slide">
+                    <img src="assets/imgs/insta/insta-1/img-5.png" alt="muzilla">
+                </div> -->
+                        <!-- <div class="swiper-slide">
+                    <img src="assets/imgs/insta/insta-1/img-1.png" alt="muzilla">
+                </div> -->
+                        <div class="swiper-slide">
+                            <img src="assets/imgs/insta/insta-1/img-2.png" alt="muzilla" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imgs/insta/insta-1/img-3.png" alt="muzilla" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imgs/insta/insta-1/img-4.png" alt="muzilla" />
+                        </div>
+                        <!-- <div class="swiper-slide">
+                    <img src="assets/imgs/insta/insta-1/img-5.png" alt="muzilla">
+                </div> -->
+                    </div>
+                </div>
+                <!-- Swiper JS -->
+                <div class="position-absolute top-50 start-50 translate-middle z-2">
+                    <a href="https://www.instagram.com/elder3_studio/" target="_blank" class="btn btn-primary">
+                        <i class="bi bi-instagram me-1"></i>
+                        Stories on instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- prettier-ignore -->
+    <!-- Footer -->
+    <footer>
+        <div class="section-footer position-relative">
+            <div class="container-fluid bg-primary">
+                <div class="container position-relative pt-120 pb-120 z-2">
+                    <div class="row align-items-stretch">
+                        <div class="col-lg-6 border-end-lg border-dark">
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="index.html" class="mb-auto">
+                                    <img src="assets/imgs/template/logo-dark.svg" alt="logo" />
+                                    <span class="text-dark fw-bold mb-0 ds-xs-6 ms-2">ELDER3</span>
+                                </a>
+                                <h2 class="text-dark mt-8 wow img-custom-anim-left">
+                                    It’s blow your mind! <br />
+                                    <span class="stroke text-primary bg-black-1">Take a Look at insta</span>
+                                </h2>
+                                <a href="https://www.instagram.com/elder3_studio/" target="_blank" class="btn btn-dark mt-5">Be One Of Us</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 justify-content-end">
+                            
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute bottom-0 end-0 pe-8 pb-8">
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll top -->
+    <div class="btn-scroll-top">
+        <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+        </svg>
+    </div>
+
+    <!-- Libs JS -->
+    <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/vendors/wow.min.js"></script>
+    <script src="assets/js/vendors/jquery.appear.js"></script>
+    <script src="assets/js/vendors/jquery.odometer.min.js"></script>
+    <script src="assets/js/vendors/smart-stick-nav.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/gsap.min.js"></script>
+    <script src="assets/js/vendors/jquery.carouselTicker.min.js"></script>
+    <script src="assets/js/vendors/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendors/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
+    <script src="assets/js/vendors/SplitText.js"></script>
+    <script src="assets/js/vendors/aat.min.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/gsap-custom.js"></script>
+    <script src="assets/js/gsap-text-animation.js"></script>
+    <script src="assets/js/imageRevealHover.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Other scripts -->
+</body>
+
+</html>
